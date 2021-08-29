@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*--------------------------
+　base
+----------------------------*/
+.title_wrapper h2{
+    font-size: 3rem;
+}
+.title_wrapper .br{
+    display: block;
+}
+.title_wrapper p{
+    font-size: 1.6rem;
+    line-height: 1.6875;
+    color: #3BA6C9;
+    text-align: center;
+}
+.btn{
+    width: 100%;
+}
+/*--------------------------
+　header
+----------------------------*/
+.header_inner nav, .header_inner .btn {
+    display: none;
+}
+.humberger{
+    display: block;
+}
+.logo{
+    font-size: 2rem;
+}
+/*--------------------------
+　blog
+----------------------------*/
+.blog_list{
+    display: block;
+}
+
+.blog_list-item{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 30px;
+}
+.blog_list-item:last-of-type{
+    margin: 0 auto;
+}
+/*--------------------------
+　fv
+----------------------------*/
+.fv{
+    background-position: top 80%  center,top 10% right -40%;
+    background-size: 50%, 60%;
+}
+.fv_inner{
+    display: flex; 
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+.copy{
+    width: 100%;
+/*    white-space: normal;*/
+    margin-bottom: 20px;
+    text-align: center;
+}
+.copy_big{
+    font-size: 2.4rem;
+    margin: 20px auto 20px;
+}
+@media (max-width:400px){
+    .copy_big{
+        font-size: 2rem;
+    }
+}
+.copy_big br{
+    display: none;
+}
+.copy_big .br{
+    display: block;
+}
+.copy_small{
+    margin-bottom: 0;
+    padding-bottom: 50%;
+}
+/*--------------------------
+　feature
+----------------------------*/
+.feature_inner{
+    padding: 55px 20px 100px;
+}
+.title_feature{
+    margin-bottom: 57px;
+}
+.contents_wrapper{
+    margin-bottom: 50px;
+}
+.contents_wrapper h3{
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+.flex_wrapper{
+    display: block;
+}
+.text_wrapper{
+    width: 100%;
+}
+.text_wrapper h4{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*
+.text_wrapper p{
+    text-align: center;
+}
+*/
+/*--------------------------
+　price
+----------------------------*/
+table{
+    width: 100%;
+}
+table th, table td{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+table td{
+    background-color: #ffffff;
+}
+/*--------------------------
+　work
+----------------------------*/
+#works{
+    padding: 55px 20px;
+}
+.swiper-slide{
+    box-sizing: border-box;
+    width: 100%;
+}
+.swiper-pagination{
+    display: block;
+    position: static;
+    margin-top: 10px;
+}
+/*--------------------------
+　contact
+----------------------------*/
+form{
+    box-sizing: border-box;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    padding: 35px 2%;
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+}
+input[type="checkbox"] + label{
+    font-size: 1.2rem;
+}
+/*--------------------------
+　footer
+----------------------------*/
+footer a{
+    margin-right: 0;
+}
