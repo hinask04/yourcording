@@ -1,0 +1,27 @@
+.send {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0.8em 5.6em;
+    background: #e95b43;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.send[disabled] {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+.required {
+    color:red;
+}
+.required:before {
+    content: "【必須】"
+}

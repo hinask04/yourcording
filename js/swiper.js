@@ -5,10 +5,10 @@ const swiper = new Swiper('.swiper-container', {
         slidesPerView: 'auto',
         spaceBetween: 30,
         loop: true,
-//        autoplay:{
-//        delay: 0,
-//    },
-//    loopedSlides: 3,
+        autoplay:{
+        delay: 5000,
+    },
+    slidesPerGroup: 3,
     pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',

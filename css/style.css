@@ -442,6 +442,10 @@ input[type="submit"]{
 input[type="submit"]:hover{
     cursor: pointer;
 }
+#js_submit[disabled]{
+    background: #aaa;
+    cursor:default;
+}
 /*--------------------------
 　footer
 ----------------------------*/
